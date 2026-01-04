@@ -1,0 +1,7 @@
+fav_movies = ["Sandlot", "Avatar", "Twilight", "The Irishman", "The Wind That Shakes The Barley", "The Banshees of Inisherin"]
+
+print(fav_movies[4])
+
+fav_numbers = [22,11,18]
+
+print(fav_numbers[0])
