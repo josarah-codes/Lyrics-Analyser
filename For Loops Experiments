@@ -1,0 +1,7 @@
+fav_movies = ["The Irishman", "The Wind That Shakes The Barley", "The Banshees of Inisherin"]
+
+for movie in fav_movies:
+    print(movie)
+    
+for number in range(40):
+    print((number + 1) * 2)
