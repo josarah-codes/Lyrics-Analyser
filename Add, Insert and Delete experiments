@@ -1,0 +1,20 @@
+fav_movies = fav_movies = ["The Irishman", "The Wind That Shakes The Barley", "The Banshees of Inisherin"]
+
+print(len(fav_movies))
+
+fav_movies.append("Paddington")
+
+print(len(fav_movies))
+
+print(fav_movies)
+
+fav_movies.insert(1,"Paddington 2")
+
+print(fav_movies)
+
+del(fav_movies[0])
+del(fav_movies[0])
+del(fav_movies[0])
+del(fav_movies[0])
+
+print(fav_movies)
