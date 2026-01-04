@@ -29,3 +29,5 @@ for word in text.lower().split():
         word_count[word] += 1 
     else:
         word_count[word] = 1 
+
+#This was my Third project, consolidating learning from the Fortune Cookie and Magic 8 Ball projects, in addition to the experiments included as files in this repository
