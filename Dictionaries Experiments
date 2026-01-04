@@ -1,0 +1,16 @@
+cats = {"Tabby":14, "Nimbus":4, "Felix":18}
+
+cats["Wilson"] = 1
+
+del(cats["Felix"])
+len(cats)
+
+length_cats = {"Tabby":31, "Nimbus":23, "Wilson":67}
+len(length_cats)
+print(length_cats)
+
+print(cats)
+
+ints_and_booleans = {1:False, 2:True, 3:False, 4:True}
+
+print(ints_and_booleans)
