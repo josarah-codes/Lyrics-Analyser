@@ -1,0 +1,31 @@
+text = """
+Seal dá rabhas im’ mhaighdean shéimh,
+‘S anois im’ bhaintreach chaite thréith,
+Mo chéile ag treabhadh na dtonn go tréan
+De bharr na gcnoc is in imigéin.
+Sé mo laoch mo Ghile Mear
+‘Sé mo Shaesar, Ghile Mear,
+Suan ná séan ní bhfuaireas féin
+Ó chuaigh i gcéin mo Ghile Mear.
+Bímse buan ar buairt gach ló,
+Ag caoi go cruaidh ‘s ag tuar na ndeor
+Mar scaoileadh uaim an buachaill beo
+‘S ná ríomhtar tuairisc uaidh, mo bhrón.
+Ní labhrann cuach go suairc ar nóin
+Is níl guth gadhair
+i gcoilltibh cnó,
+Ná maidin shamhraidh i ngleanntaibh ceoigh
+Ó d’imthigh sé uaim an buachaill beó.
+Ghile Mear ‘sa seal faoi chumha,
+‘S Éire go léir faoi chlócaibh dubha;
+Suan ná séan ní bhfuaireas féin
+Ó chuaigh i gcéin mo Ghile Mear.
+"""
+
+word_count = {}
+
+for word in text.lower().split():
+    if word in word_count:
+        word_count[word] += 1 
+    else:
+        word_count[word] = 1 
